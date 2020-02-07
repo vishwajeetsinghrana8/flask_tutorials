@@ -1,0 +1,20 @@
+body{
+    background: url(https://zdnet2.cbsistatic.com/hub/i/2019/08/23/3ee727b6-3307-48cd-9f6f-77ac484c3b2b/ml.jpg);
+    background-repeat: no-repeat;
+}
+
+div{
+    background-color: red;
+    border: blue;
+    border-width: 12px;
+    border-style: dashed;
+}
+
+p{
+    color: yellow;
+}
+
+span{
+    background: orange;
+    color:black;
+}

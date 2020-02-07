@@ -1,0 +1,28 @@
+.first{
+    color: green;
+}
+
+.second{
+    background-color: blue;
+}
+
+#var1{
+    color: red;
+    text-decoration: underline;
+}
+
+/* *{
+    color: gray;
+} */
+h3 + ul{
+    border: 3px dotted green;
+}
+
+li a{
+    color: orange;
+}
+
+li a[href="https://www.facebook.com"]{
+    color: red;
+    border: 5px dotted black;
+}
