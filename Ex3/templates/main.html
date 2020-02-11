@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>List1</h1>
+        <ul>
+            {%for name in list1%}
+            <li>{{name}}</li>
+            {%endfor%}
+        </ul>
+        <h1>For if-else Condition</h1>
+        {%if 'Rick' in list1%}
+            <p>We have found Vishwajeet!!!!</p>
+        {%else%}
+            <p>Match not found!!!</p>
+        {%endif%}
+    </body>
+</html>
