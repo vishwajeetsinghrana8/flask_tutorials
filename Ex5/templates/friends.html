@@ -1,0 +1,5 @@
+{% extends "main.html" %}
+{% block content %}
+<h1>This page is for my friend: {{name|capitalize}}</h1>
+<h1><a href="{{url_for('static',filename='tree.jpg')}}">Click Me</a> </h1>
+{% endblock %}
